@@ -1,0 +1,124 @@
+
+┏┓ ┏┳━━━┳┓  ┏┳━━━┳━━┓┏┓ ┏┳━━━┳━━━┓
+┃┃ ┃┃┏━┓┃┗┓┏┛┃┏━┓┃┏┓┃┃┃ ┃┃┏━┓┃┏━┓┃
+┃┗━┛┃┃ ┃┣┓┗┛┏┫┃ ┃┃┗┛┗┫┃ ┃┃┗━━┫┃ ┃┃
+┃┏━┓┃┗━┛┃┗┓┏┛┃┗━┛┃┏━┓┃┃ ┃┣━━┓┃┗━┛┃
+┃┃ ┃┃┏━┓┃ ┃┃ ┃┏━┓┃┗━┛┃┗━┛┃┗━┛┃┏━┓┃
+┗┛ ┗┻┛ ┗┛ ┗┛ ┗┛ ┗┻━━━┻━━━┻━━━┻┛ ┗┛
+   by Yamato Security
+
+Giving you the Windows event logs you've always wanted~
+
+Start time: 2025/04/02 11:21
+Total event log files: 1
+Total file size: 67.1 MB
+
+Scan wizard:
+✔ Which set of detection rules would you like to load? · 5. All event and alert rules (4,618 rules) ( status: * | level: informational+ )
+✔ Include deprecated rules? (215 rules) · yes
+✔ Include unsupported rules? (42 rules) · yes
+✔ Include noisy rules? (12 rules) · yes
+✔ Include sysmon rules? (2,260 rules) · yes
+
+Loading detection rules. Please wait.
+
+Excluded rules: 26
+Noisy rules: 12
+
+Deprecated rules: 215 (4.67%)
+Experimental rules: 218 (4.73%)
+Stable rules: 255 (5.53%)
+Test rules: 3,878 (84.16%)
+Unsupported rules: 42 (0.91%)
+
+Correlation rules: 3 (0.07%)
+Correlation referenced rules: 3 (0.07%)
+
+Expand rules: 10 (0.22%)
+Enabled expand rules: 0 (0.00%)
+
+Hayabusa rules: 190
+Sigma rules: 4,418
+Total detection rules: 4,608
+
+Creating the channel filter. Please wait.
+
+Evtx files loaded after channel filter: 1
+Detection rules enabled after channel filter: 2,265
+
+Output profile: verbose
+
+Scanning in progress. Please wait.
+
+[00:00:10] 1 / 1   [========================================] 100%
+
+Scanning finished. Please wait while the results are being saved.
+                                                                                                                                           Rule Authors:
+
+╭──────────────────────────────────────────────────────────────────────────────────╮
+│ Zach Mathis (13)        frack113 (5)             Nasreddine Bencherchali (5)     │
+│ oscd.community (5)      Victor Sergeev (2)       Gleb Sukhodolskiy (2)           │
+│ Tim Shelton (2)         Timur Zinniatullin (2)   Daniil Yugoslavskiy (2)         │
+│ Florian Roth (2)        Markus Neis (1)          Roberto Rodriguez @Cyb3r... (1) │
+│ Roberto Rodriguez (1)   OTR (1)                  Center for Threat Inform... (1) │
+│ Patrick Bareiss (1)     Jakob Weinzettl (1)      Anton Kutepov (1)               │
+╰───────────────────────╌────────────────────────╌─────────────────────────────────╯
+
+Results Summary:
+
+Events with hits / Total events: 21,831 / 21,831 (Data reduction: 0 events (0.00%))
+
+Total | Unique detections: 38,456 | 28
+Total | Unique emergency detections: 0 (0.00%) | 0 (0.00%)
+Total | Unique critical detections: 0 (0.00%) | 0 (28.57%)
+Total | Unique high detections: 6 (0.02%) | 2 (25.00%)
+Total | Unique medium detections: 1,854 (4.82%) | 11 (39.29%)
+Total | Unique low detections: 15,459 (40.20%) | 7 (7.14%)
+Total | Unique informational detections: 21,137 (54.96%) | 8 (0.00%)
+
+Dates with most total detections:
+emergency: n/a, critical: n/a, high: 2025-04-02 (6), medium: 2025-04-02 (1,851), low: 2025-04-02 (15,423), informational: 2025-04-02 (21,092)
+
+Top 5 computers with most unique detections:
+emergency: n/a
+critical: n/a
+high: RCT (2)
+medium: RCT (11)
+low: RCT (7)
+informational: RCT (8)
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Top emergency alerts:                             Top critical alerts:                        │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ n/a                                               n/a                                         │
+│ n/a                                               n/a                                         │
+│ n/a                                               n/a                                         │
+│ n/a                                               n/a                                         │
+│ n/a                                               n/a                                         │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ Top high alerts:                                  Top medium alerts:                          │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ Renamed Office Binary Execution (3)               Process Reconnaissance Via Wmic.EXE (1,126) │
+│ System File Execution Location Anomaly (3)        Reg Key Value Set (Sysmon Alert) (318)      │
+│ n/a                                               File Created (Sysmon Alert) (205)           │
+│ n/a                                               Net Conn (Sysmon Alert) (160)               │
+│ n/a                                               Elevated System Shell Spawned (20)          │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ Top low alerts:                                   Top informational alerts:                   │
+├╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌┤
+│ Renamed Exe File (15,387)                         Proc Exec (20,611)                          │
+│ Possible Timestomping (45)                        DNS Query (435)                             │
+│ Non Interactive PowerShell Process Spawned (15)   File Created (41)                           │
+│ Process Start From Suspicious Folder (4)          New Application in AppCompat (38)           │
+│ Potential Execution of Sysinternals Tools (4)     Reg Key Value Set (Noisy) (5)               │
+╰─────────────────────────────────────────────────╌─────────────────────────────────────────────╯
+
+Saved file: .\utils\Hayabusa\report.jsonl (81.4 MB)
+
+Elapsed time: 00:01:23.701
+
+Please report any issues with Hayabusa rules to: https://github.com/Yamato-Security/hayabusa-rules/issues
+Please report any false positives with Sigma rules to: https://github.com/SigmaHQ/sigma/issues
+Please submit new Sigma rules with pull requests to: https://github.com/SigmaHQ/sigma/pulls
+
+漸進 - Zenshin - Gradual progress.

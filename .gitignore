@@ -1,0 +1,7 @@
+saves/
+rules/
+logs/
+utils/
+archives/
+output/
+*.sh
